@@ -9,7 +9,8 @@ import logger from './log'
 const defaultConfig = {
     telegram: {
         token: 'YOUR_TELEGRAM_BOT_TOKEN'
-    }
+    },
+    owner: 114514
 }
 
 /*
