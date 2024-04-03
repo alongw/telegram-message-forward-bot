@@ -7,7 +7,6 @@ import logger from './log'
  * 默认配置
  */
 const defaultConfig = {
-    port: 3000,
     telegram: {
         token: 'YOUR_TELEGRAM_BOT_TOKEN'
     }
