@@ -18,7 +18,10 @@
         "build": "npx webpack"
     },
     "devDependencies": {
+        "@types/fs-extra": "^11.0.4",
+        "@types/js-yaml": "^4.0.9",
         "@types/node": "^20.11.19",
+        "@types/node-telegram-bot-api": "^0.64.6",
         "clean-webpack-plugin": "^4.0.0",
         "copy-webpack-plugin": "^12.0.2",
         "ts-loader": "^9.5.1",
@@ -30,5 +33,10 @@
         "webpack-cli": "^5.1.4",
         "webpack-node-externals": "^3.0.0"
     },
-    "dependencies": {}
+    "dependencies": {
+        "fs-extra": "^11.2.0",
+        "js-yaml": "^4.1.0",
+        "log4js": "^6.9.1",
+        "node-telegram-bot-api": "^0.65.1"
+    }
 }
