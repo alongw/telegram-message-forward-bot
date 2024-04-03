@@ -1,0 +1,34 @@
+{
+    "name": "telegram-message-forward-bot",
+    "version": "1.0.0",
+    "main": "./src/app.ts",
+    "license": "AGPL-3.0-only",
+    "type": "module",
+    "author": {
+        "name": "alongw",
+        "email": "alongnyaa@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alongw/telegram-message-forward-bot"
+    },
+    "scripts": {
+        "dev": "nodemon --config nodemon.json",
+        "start": "tsx ./src/app.ts",
+        "build": "npx webpack"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.19",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^12.0.2",
+        "ts-loader": "^9.5.1",
+        "ts-node": "^10.9.2",
+        "tsconfig-paths": "^4.2.0",
+        "tsx": "^4.7.1",
+        "typescript": "^5.3.3",
+        "webpack": "^5.90.2",
+        "webpack-cli": "^5.1.4",
+        "webpack-node-externals": "^3.0.0"
+    },
+    "dependencies": {}
+}
